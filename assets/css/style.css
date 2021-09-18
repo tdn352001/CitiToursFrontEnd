@@ -73,6 +73,7 @@
     position: absolute;
     top: calc(100% + 22px);
     left: -24px;
+    z-index: 10;
 }
 
 .sub_menu-list::after{
@@ -82,6 +83,7 @@
     height: 30px;
     position: absolute;
     top: -22px;
+    
 }
 
 .sub_menu:hover .sub_menu-list{
@@ -219,7 +221,7 @@
     top: 0;
     left: 0;
     z-index: 2;
-    animation: progressBar 8s linear 0s infinite normal;
+    animation: progressBar 18s linear 0s infinite normal;
 }
 
 
@@ -260,9 +262,8 @@
  }
 
  .slider__header{
-    
     cursor: default;
-    animation: Floating 5s linear 0s infinite alternate forwards;
+    transition: all linear 0.5s;
 }
 
 .slider__heading{
@@ -276,6 +277,8 @@
     font-size: 4.5rem;
     font-weight: 600;
     background-color: #555555;
+    transition: transform linear;
+    will-change: transform;
 }
 
 .slider__heading-above{
