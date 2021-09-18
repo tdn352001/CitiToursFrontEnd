@@ -2,6 +2,10 @@
 
 }
 
+
+
+    /* ======= HEADER ========== */
+
 .header{
     height: 78px;
     padding: 0 68px;
@@ -173,30 +177,82 @@
 }
 
 
+/* ============== SLIDER ================= */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container{
-    height: 500px;
-    width: 100%;
-    background-color: #000;
+.slider__container{
+    overflow: hidden;
+    height: 800px;
 }
+.slider{
+    position: relative;
+    height: 100%;
+    width: 200%;
+}
+
+.slide__item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    animation: fadeIn linear 0.2s;
+    will-change: opacity;
+}
+
+.slide__item-img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider__progress{
+    display: block;
+    width: 0;
+    height: 10px;
+    background-color: #8f8d8d;
+    filter: brightness(90%);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    animation: progressBar  8s linear 0s infinite normal;
+}
+
+
+.btn__change-slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 34rem;
+}
+
+
+.btn__change-slide svg {
+    padding: 12px 8px;
+    width: 66px;
+    height: 74px;
+    cursor: pointer;
+}
+.btn__change-slide svg:hover{
+    background-color: #f1f1f14d;
+}
+
+.btn__change-slide-left{
+    left: 20px
+}
+
+.btn__change-slide-right{
+    right: calc(50% + 20px)
+}
+
+
+
+
+
+
+
+
+
+
+

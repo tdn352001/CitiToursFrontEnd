@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>City Tours</title>
@@ -260,13 +261,41 @@
         </header>
 
         <div class="container">
+            <div class="slider__container">
+                <div class="slider">
+                    <div class="slider__progress "></div>
 
+                    <div class="slide__item slide__item-first">
+                        <img src="./assets/img/slide-01.jpg" alt="" class="slide__item-img">
+                    </div>
+                    <div class="slide__item slide__item-second">
+                        <img src="./assets/img/slide-02.jpg" alt="" class="slide__item-img">
+                    </div>
+
+                    <span class="btn__change-slide btn__change-slide-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-left"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                        </svg>
+                    </span>
+                   
+                    <span class="btn__change-slide btn__change-slide-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-right"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
         </div>
 
         <div class="footer">
 
         </div>
     </div>
+    <script src="./assets/js/main.js" type="text/javascript"></script>
 </body>
 
 </html>
