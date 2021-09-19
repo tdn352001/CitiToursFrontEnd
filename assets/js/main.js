@@ -112,7 +112,9 @@ const StartFloatingAnimationForHeader = function(){
     x*=2;
     y*=2;
     sliderAbove.style.transform = 'matrix(1, 0, 0, 1,' + y + ',' + x + ')';
-    sliderBelow.style.transform = 'matrix(1, 0, 0, 1,' + y + ',' + x + ')';
+    setTimeout(() => {
+        sliderBelow.style.transform = 'matrix(1, 0, 0, 1,' + y + ',' + x + ')';
+    }, 50)
 }
 setInterval(StartFloatingAnimationForHeader, 200);
 
