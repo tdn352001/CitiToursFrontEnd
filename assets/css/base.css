@@ -17,8 +17,60 @@ a{
     text-decoration: none;
 }
 
+.flex-direction-row-reverse{
+    flex-direction: row-reverse;
+}
 .display_none{
     display: none !important;
+}
+
+.color-white{
+    color: white !important;
+}
+
+.color-blue{
+    color: #14b9d5 !important;
+}
+
+.color-green{
+    color: #1bbc9b !important;
+}
+
+.background__white{
+    background-color: #fff;
+}
+
+.background__green{
+    background-color: #1bbc9b;
+}
+
+.background__pink{
+    background-color: #ff6868;
+}
+.background__pink-light{
+    background-color: #f76570;
+}
+.background__blue{
+    background-color: #14b9d5;
+} 
+
+.background__orange{
+    background-color: #f3a46b;
+} 
+.background__purple{
+    background-color: #c755da;
+} 
+
+.background__purple-light{
+    background-color: #ba71da;
+} 
+
+.background__yellow{
+    background-color: #ffd205;
+}
+
+.background_linear_from_pink_to_orange {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%) !important;
 }
 
 /* Responsive */
@@ -74,7 +126,7 @@ a{
         width: 0;
     }
     to {
-        width: 100%;
+        width: 50%;
     }
 }
 
@@ -142,15 +194,813 @@ a{
 
 @keyframes Floating{
     0%{
-        transform: translate(0, 0);
+        transform: translate(0px, 1px);
     }
-    25%{
-         transform: translate(10px, 0);
+    1% {
+        transform: translate(-1.3276px, -2.6903px);
     }
-    50%{
-         transform: translate(10px, 10px);
+    2% {
+        transform: translate(2.381px, 1.8251px);
     }
-    75%{
-         transform: translate(0, 10px);
+    3% {
+        transform: translate(-2.9428px, -0.583px);
     }
+    4% {
+        transform: translate(2.897px, -0.7795px);
+    }
+    5% {
+        transform: translate(-2.253px, 1.981px);
+    }
+    6% {
+        transform: translate(1.1438px, -2.7734px);
+    }
+    7% {
+        transform: translate(0.2016px, 2.9932px);
+    }
+    8% {
+        transform: translate(-1.5054px, -2.595px);
+    }
+    9% {
+        transform: translate(2.4983px, 1.6609px);
+    }
+    10% {
+        transform: translate(-2.9753px, -0.3839px);
+    }
+    11% {
+        transform: translate(2.838px, -0.9724px);
+    }
+    12% {
+        transform: translate(-2.1147px, 2.1279px);
+    }
+    13% {
+        transform: translate(0.9548px, -2.844px);
+    }
+    14% {
+        transform: translate(0.4023px, 2.9729px);
+    }
+    15% {
+        transform: translate(-1.6764px, -2.4879px);
+    }
+    16% {
+        transform: translate(2.6043px, 1.4892px);
+    }
+    17% {
+        transform: translate(-2.9944px, -0.1831px);
+    }
+    18% {
+        transform: translate(2.7663px, -1.1609px);
+    }
+    19% {
+        transform: translate(-1.9669px, 2.2652px);
+    }
+    20% {
+        transform: translate(0.7615px, -2.9018px);
+    }
+    21% {
+        transform: translate(0.6012px, 2.9391px);
+    }
+    22% {
+        transform: translate(-1.8398px, -2.3696px);
+    }
+    23% {
+        transform: translate(2.6985px, 1.3109px);
+    }
+    24% {
+        transform: translate(-2.9999px, 0.0186px);
+    }
+    25% {
+        transform: translate(2.682px, -1.3442px);
+    }
+    26% {
+        transform: translate(-1.8103px, 2.3923px);
+    }
+    27% {
+        transform: translate(0.5647px, -2.9464px);
+    }
+    28% {
+        transform: translate(0.7974px, 2.8921px);
+    }
+    29% {
+        transform: translate(-1.9949px, -2.2406px);
+    }
+    30% {
+        transform: translate(2.7805px, 1.1265px);
+    }
+    31% {
+        transform: translate(-2.9919px, 0.2202px);
+    }
+    32% {
+        transform: translate(2.5856px, -1.5214px);
+    }
+    33% {
+        transform: translate(-1.6454px, 2.5085px);
+    }
+    34% {
+        transform: translate(0.3654px, -2.9777px);
+    }
+    35% {
+        transform: translate(0.99px, 2.832px);
+    }
+    36% {
+        transform: translate(-2.141px, -2.1015px);
+    }
+    37% {
+        transform: translate(2.8499px, 0.9371px);
+    }
+    38% {
+        transform: translate(-2.9703px, 0.4208px);
+    }
+    39% {
+        transform: translate(2.4775px, -1.6918px);
+    }
+    40% {
+        transform: translate(-1.4731px, 2.6134px);
+    }
+    41% {
+        transform: translate(0.1645px, -2.9955px);
+    }
+    42% {
+        transform: translate(1.1781px, 2.759px);
+    }
+    43% {
+        transform: translate(-2.2774px, -1.9529px);
+    }
+    44% {
+        transform: translate(2.9064px, 0.7435px);
+    }
+    45% {
+        transform: translate(-2.9354px, 0.6194px);
+    }
+    46% {
+        transform: translate(2.3582px, -1.8544px);
+    }
+    47% {
+        transform: translate(-1.2941px, 2.7065px);
+    }
+    48% {
+        transform: translate(-0.0372px, -2.9998px);
+    }
+    49% {
+        transform: translate(1.3608px, 2.6736px);
+    }
+    50% {
+        transform: translate(-2.4035px, -1.7954px);
+    }
+    51% {
+        transform: translate(2.9498px, 0.5464px);
+    }
+    52% {
+        transform: translate(-2.8871px, 0.8153px);
+    }
+    53% {
+        transform: translate(2.2282px, -2.0087px);
+    }
+    54% {
+        transform: translate(-1.1093px, 2.7874px);
+    }
+    55% {
+        transform: translate(-0.2387px, -2.9905px);
+    }
+    56% {
+        transform: translate(1.5374px, 2.5761px);
+    }
+    57% {
+        transform: translate(-2.5187px, -1.6298px);
+    }
+    58% {
+        transform: translate(2.9799px, 0.347px);
+    }
+    59% {
+        transform: translate(-2.8258px, 1.0075px);
+    }
+    60% {
+        transform: translate(2.0882px, -2.154px);
+    }
+    61% {
+        transform: translate(-0.9194px, 2.8556px);
+    }
+    62% {
+        transform: translate(-0.4392px, -2.9677px);
+    }
+    63% {
+        transform: translate(1.7071px, 2.4669px);
+    }
+    64% {
+        transform: translate(-2.6225px, -1.4568px);
+    }
+    65% {
+        transform: translate(2.9965px, 0.1459px);
+    }
+    66% {
+        transform: translate(-2.7517px, 1.1952px);
+    }
+    67% {
+        transform: translate(1.9387px, -2.2894px);
+    }
+    68% {
+        transform: translate(-0.7254px, 2.911px);
+    }
+    69% {
+        transform: translate(-0.6376px, -2.9315px);
+    }
+    70% {
+        transform: translate(1.869px, 2.3466px);
+    }
+    71% {
+        transform: translate(-2.7145px, -1.2773px);
+    }
+    72% {
+        transform: translate(2.9995px, -0.0558px);
+    }
+    73% {
+        transform: translate(-2.6651px, 1.3774px);
+    }
+    74% {
+        transform: translate(1.7804px, -2.4145px);
+    }
+    75% {
+        transform: translate(-0.5281px, 2.9531px);
+    }
+    76% {
+        transform: translate(-0.8332px, -2.882px);
+    }
+    77% {
+        transform: translate(2.0225px, 2.2157px);
+    }
+    78% {
+        transform: translate(-2.7942px, -1.092px);
+    }
+    79% {
+        transform: translate(2.9889px, -0.2573px);
+    }
+    80% {
+        transform: translate(-2.5665px, 1.5534px);
+    }
+    81% {
+        transform: translate(1.6141px, -2.5287px);
+    }
+    82% {
+        transform: translate(-0.3285px, 2.982px);
+    }
+    83% {
+        transform: translate(-1.025px, -2.8195px);
+    }
+    84% {
+        transform: translate(2.1669px, 2.0748px);
+    }
+    85% {
+        transform: translate(-2.8613px, -0.9017px);
+    }
+    86% {
+        transform: translate(2.9649px, -0.4576px);
+    }
+    87% {
+        transform: translate(-2.4563px, 1.7224px);
+    }
+    88% {
+        transform: translate(1.4405px, -2.6315px);
+    }
+    89% {
+        transform: translate(-0.1273px, 2.9973px);
+    }
+    90% {
+        transform: translate(-1.2122px, -2.7442px);
+    }
+    91% {
+        transform: translate(2.3014px, 1.9245px);
+    }
+    92% {
+        transform: translate(-2.9154px, -0.7074px);
+    }
+    93% {
+        transform: translate(2.9274px, -0.6558px);
+    }
+    94% {
+        transform: translate(-2.335px, 1.8836px);
+    }
+    95% {
+        transform: translate(1.2604px, -2.7224px);
+    }
+    96% {
+        transform: translate(0.0744px, 2.9991px);
+    }
+    97% {
+        transform: translate(-1.3939px, -2.6565px);
+    }
+    98% {
+        transform: translate(2.4255px, 1.7654px);
+    }
+    99% {
+        transform: translate(-2.9564px, -0.5098px);
+    }
+    100% {
+        transform: translate(2.8767px, -0.8511px);
+    }
+}
+
+@keyframes floatingUseMatrix{
+
+    0% {
+            transform: matrix(1, 0, 0, 1, 0, 3);
+        }
+    
+
+        1% {
+            transform: matrix(1, 0, 0, 1, 2.5244, 1.6209);
+        }
+    
+
+        2% {
+            transform: matrix(1, 0, 0, 1, 2.7279, -1.2484);
+        }
+    
+
+        3% {
+            transform: matrix(1, 0, 0, 1, 0.4234, -2.97);
+        }
+    
+
+        4% {
+            transform: matrix(1, 0, 0, 1, -2.2704, -1.9609);
+        }
+    
+
+        5% {
+            transform: matrix(1, 0, 0, 1, -2.8768, 0.851);
+        }
+    
+
+        6% {
+            transform: matrix(1, 0, 0, 1, -0.8382, 2.8805);
+        }
+    
+
+        7% {
+            transform: matrix(1, 0, 0, 1, 1.971, 2.2617);
+        }
+    
+
+        8% {
+            transform: matrix(1, 0, 0, 1, 2.9681, -0.4365);
+        }
+    
+
+        9% {
+            transform: matrix(1, 0, 0, 1, 1.2364, -2.7334);
+        }
+    
+
+        10% {
+            transform: matrix(1, 0, 0, 1, -1.6321, -2.5172);
+        }
+    
+
+        11% {
+            transform: matrix(1, 0, 0, 1, -3, 0.0133);
+        }
+    
+
+        12% {
+            transform: matrix(1, 0, 0, 1, -1.6097, 2.5316);
+        }
+    
+
+        13% {
+            transform: matrix(1, 0, 0, 1, 1.2605, 2.7223);
+        }
+    
+
+        14% {
+            transform: matrix(1, 0, 0, 1, 2.9718, 0.4102);
+        }
+    
+
+        15% {
+            transform: matrix(1, 0, 0, 1, 1.9509, -2.2791);
+        }
+    
+
+        16% {
+            transform: matrix(1, 0, 0, 1, -0.8637, -2.873);
+        }
+    
+
+        17% {
+            transform: matrix(1, 0, 0, 1, -2.8842, -0.8255);
+        }
+    
+
+        18% {
+            transform: matrix(1, 0, 0, 1, -2.253, 1.981);
+        }
+    
+
+        19% {
+            transform: matrix(1, 0, 0, 1, 0.4496, 2.9661);
+        }
+    
+
+        20% {
+            transform: matrix(1, 0, 0, 1, 2.7388, 1.2242);
+        }
+    
+
+        21% {
+            transform: matrix(1, 0, 0, 1, 2.51, -1.6432);
+        }
+    
+
+        22% {
+            transform: matrix(1, 0, 0, 1, -0.0266, -2.9999);
+        }
+    
+
+        23% {
+            transform: matrix(1, 0, 0, 1, -2.5387, -1.5985);
+        }
+    
+
+        24% {
+            transform: matrix(1, 0, 0, 1, -2.7167, 1.2725);
+        }
+    
+
+        25% {
+            transform: matrix(1, 0, 0, 1, -0.3971, 2.9736);
+        }
+    
+
+        26% {
+            transform: matrix(1, 0, 0, 1, 2.2877, 1.9408);
+        }
+    
+
+        27% {
+            transform: matrix(1, 0, 0, 1, 2.8691, -0.8764);
+        }
+    
+
+        28% {
+            transform: matrix(1, 0, 0, 1, 0.8127, -2.8878);
+        }
+    
+
+        29% {
+            transform: matrix(1, 0, 0, 1, -1.9909, -2.2442);
+        }
+    
+
+        30% {
+            transform: matrix(1, 0, 0, 1, -2.9641, 0.4628);
+        }
+    
+
+        31% {
+            transform: matrix(1, 0, 0, 1, -1.2121, 2.7442);
+        }
+    
+
+        32% {
+            transform: matrix(1, 0, 0, 1, 1.6543, 2.5027);
+        }
+    
+
+        33% {
+            transform: matrix(1, 0, 0, 1, 2.9997, -0.0398);
+        }
+    
+
+        34% {
+            transform: matrix(1, 0, 0, 1, 1.5872, -2.5457);
+        }
+    
+
+        35% {
+            transform: matrix(1, 0, 0, 1, -1.2845, -2.7111);
+        }
+    
+
+        36% {
+            transform: matrix(1, 0, 0, 1, -2.9753, -0.3839);
+        }
+    
+
+        37% {
+            transform: matrix(1, 0, 0, 1, -1.9306, 2.2962);
+        }
+    
+
+        38% {
+            transform: matrix(1, 0, 0, 1, 0.8891, 2.8652);
+        }
+    
+
+        39% {
+            transform: matrix(1, 0, 0, 1, 2.8914, 0.7999);
+        }
+    
+
+        40% {
+            transform: matrix(1, 0, 0, 1, 2.2353, -2.0008);
+        }
+    
+
+        41% {
+            transform: matrix(1, 0, 0, 1, -0.4759, -2.962);
+        }
+    
+
+        42% {
+            transform: matrix(1, 0, 0, 1, -2.7496, -1.2);
+        }
+    
+
+        43% {
+            transform: matrix(1, 0, 0, 1, -2.4953, 1.6653);
+        }
+    
+
+        44% {
+            transform: matrix(1, 0, 0, 1, 0.0531, 2.9995);
+        }
+    
+
+        45% {
+            transform: matrix(1, 0, 0, 1, 2.5527, 1.576);
+        }
+    
+
+        46% {
+            transform: matrix(1, 0, 0, 1, 2.7054, -1.2965);
+        }
+    
+
+        47% {
+            transform: matrix(1, 0, 0, 1, 0.3707, -2.977);
+        }
+    
+
+        48% {
+            transform: matrix(1, 0, 0, 1, -2.3048, -1.9204);
+        }
+    
+
+        49% {
+            transform: matrix(1, 0, 0, 1, -2.8613, 0.9018);
+        }
+    
+
+        50% {
+            transform: matrix(1, 0, 0, 1, -0.7871, 2.8949);
+        }
+    
+
+        51% {
+            transform: matrix(1, 0, 0, 1, 2.0107, 2.2265);
+        }
+    
+
+        52% {
+            transform: matrix(1, 0, 0, 1, 2.9599, -0.489);
+        }
+    
+
+        53% {
+            transform: matrix(1, 0, 0, 1, 1.1878, -2.7548);
+        }
+    
+
+        54% {
+            transform: matrix(1, 0, 0, 1, -1.6764, -2.4879);
+        }
+    
+
+        55% {
+            transform: matrix(1, 0, 0, 1, -2.9993, 0.0664);
+        }
+    
+
+        56% {
+            transform: matrix(1, 0, 0, 1, -1.5647, 2.5597);
+        }
+    
+
+        57% {
+            transform: matrix(1, 0, 0, 1, 1.3085, 2.6996);
+        }
+    
+
+        58% {
+            transform: matrix(1, 0, 0, 1, 2.9786, 0.3575);
+        }
+    
+
+        59% {
+            transform: matrix(1, 0, 0, 1, 1.9102, -2.3132);
+        }
+    
+
+        60% {
+            transform: matrix(1, 0, 0, 1, -0.9144, -2.8572);
+        }
+    
+
+        61% {
+            transform: matrix(1, 0, 0, 1, -2.8984, -0.7743);
+        }
+    
+
+        62% {
+            transform: matrix(1, 0, 0, 1, -2.2175, 2.0205);
+        }
+    
+
+        63% {
+            transform: matrix(1, 0, 0, 1, 0.5021, 2.9577);
+        }
+    
+
+        64% {
+            transform: matrix(1, 0, 0, 1, 2.7601, 1.1756);
+        }
+    
+
+        65% {
+            transform: matrix(1, 0, 0, 1, 2.4805, -1.6874);
+        }
+    
+
+        66% {
+            transform: matrix(1, 0, 0, 1, -0.0797, -2.9989);
+        }
+    
+
+        67% {
+            transform: matrix(1, 0, 0, 1, -2.5666, -1.5533);
+        }
+    
+
+        68% {
+            transform: matrix(1, 0, 0, 1, -2.6938, 1.3204);
+        }
+    
+
+        69% {
+            transform: matrix(1, 0, 0, 1, -0.3444, 2.9802);
+        }
+    
+
+        70% {
+            transform: matrix(1, 0, 0, 1, 2.3217, 1.9);
+        }
+    
+
+        71% {
+            transform: matrix(1, 0, 0, 1, 2.8532, -0.9271);
+        }
+    
+
+        72% {
+            transform: matrix(1, 0, 0, 1, 0.7615, -2.9018);
+        }
+    
+
+        73% {
+            transform: matrix(1, 0, 0, 1, -2.0303, -2.2086);
+        }
+    
+
+        74% {
+            transform: matrix(1, 0, 0, 1, -2.9554, 0.5152);
+        }
+    
+
+        75% {
+            transform: matrix(1, 0, 0, 1, -1.1633, 2.7653);
+        }
+    
+
+        76% {
+            transform: matrix(1, 0, 0, 1, 1.6983, 2.473);
+        }
+    
+
+        77% {
+            transform: matrix(1, 0, 0, 1, 2.9986, -0.0929);
+        }
+    
+
+        78% {
+            transform: matrix(1, 0, 0, 1, 1.5419, -2.5734);
+        }
+    
+
+        79% {
+            transform: matrix(1, 0, 0, 1, -1.3323, -2.6879);
+        }
+    
+
+        80% {
+            transform: matrix(1, 0, 0, 1, -2.9817, -0.3312);
+        }
+    
+
+        81% {
+            transform: matrix(1, 0, 0, 1, -1.8897, 2.3301);
+        }
+    
+
+        82% {
+            transform: matrix(1, 0, 0, 1, 0.9397, 2.849);
+        }
+    
+
+        83% {
+            transform: matrix(1, 0, 0, 1, 2.9051, 0.7486);
+        }
+    
+
+        84% {
+            transform: matrix(1, 0, 0, 1, 2.1996, -2.0401);
+        }
+    
+
+        85% {
+            transform: matrix(1, 0, 0, 1, -0.5282, -2.9531);
+        }
+    
+
+        86% {
+            transform: matrix(1, 0, 0, 1, -2.7704, -1.1511);
+        }
+    
+
+        87% {
+            transform: matrix(1, 0, 0, 1, -2.4655, 1.7093);
+        }
+    
+
+        88% {
+            transform: matrix(1, 0, 0, 1, 0.1062, 2.9981);
+        }
+    
+
+        89% {
+            transform: matrix(1, 0, 0, 1, 2.5802, 1.5305);
+        }
+    
+
+        90% {
+            transform: matrix(1, 0, 0, 1, 2.682, -1.3442);
+        }
+    
+
+        91% {
+            transform: matrix(1, 0, 0, 1, 0.318, -2.9831);
+        }
+    
+
+        92% {
+            transform: matrix(1, 0, 0, 1, -2.3384, -1.8793);
+        }
+    
+
+        93% {
+            transform: matrix(1, 0, 0, 1, -2.8448, 0.9523);
+        }
+    
+
+        94% {
+            transform: matrix(1, 0, 0, 1, -0.7358, 2.9084);
+        }
+    
+
+        95% {
+            transform: matrix(1, 0, 0, 1, 2.0498, 2.1905);
+        }
+    
+
+        96% {
+            transform: matrix(1, 0, 0, 1, 2.9508, -0.5413);
+        }
+    
+
+        97% {
+            transform: matrix(1, 0, 0, 1, 1.1388, -2.7754);
+        }
+    
+
+        98% {
+            transform: matrix(1, 0, 0, 1, -1.7201, -2.4579);
+        }
+    
+
+        99% {
+            transform: matrix(1, 0, 0, 1, -2.9976, 0.1195);
+        }
+    
+
+        100% {
+            transform: matrix(1, 0, 0, 1, -1.5191, 2.587);
+        }
 }
